@@ -38,7 +38,7 @@ case ${DRONE_DEPLOY_TO} in
     export APP_HOST_INTERNAL="flask-app.internal.acp-example-testing.homeoffice.gov.uk"
     export KUBE_SERVER="https://kube-api-test.testing.acp.homeoffice.gov.uk"
     export KUBE_TOKEN=${KUBE_TOKEN_ACP_TEST}
-    export ENABLE_KEYCLOAK="true"
+    export ENABLE_KEYCLOAK="false"
     export REPLICAS=2 ;;
 
   *)
