@@ -6,7 +6,7 @@ source ${DIR}/util.sh || exit 1
 
 export ACTION=${ACTION:-"deploy"}
 export APP_IMAGE="340268328991.dkr.ecr.eu-west-2.amazonaws.com/acp/flask-example-app"
-export APP_VERSION="v2.0"
+export APP_VERSION="v3.0"
 export DEPLOYMENT_NAME="flask-example-app"
 export KUBE_CERTIFICATE_AUTHORITY="https://raw.githubusercontent.com/UKHomeOffice/acp-ca/master/${DRONE_DEPLOY_TO}.crt"
 export KUBE_NAMESPACE="acp-example"
